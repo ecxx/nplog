@@ -19,7 +19,7 @@ class DBLogger extends Logger {
     write(level, message) {
 
         var ts = Math.round((new Date()).getTime() / 1000);
-        this.db.run(`INSERT INTO ${this.table} (${this.level},${this.timestamp},${this.message}) VALUES (${level},${ts},${message})`);
+        this.db.run(`INSERT INTO ${this.table} (${this.level},${this.timestamp},${this.message}) VALUES ('${level}',${ts},'${message}')`);
 
     }
 
