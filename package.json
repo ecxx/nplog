@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ecxx/nplog/issues"
   },
-  "homepage": "https://github.com/ecxx/nplog#readme"
+  "homepage": "https://github.com/ecxx/nplog#readme",
+  "dependencies": {
+    "sqlite3": "^4.2.0"
+  }
 }
