@@ -1,0 +1,22 @@
+{
+  "name": "nplog",
+  "version": "1.0.0",
+  "description": "Node Logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecxx/nplog.git"
+  },
+  "keywords": [
+    "log"
+  ],
+  "author": "ecxx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecxx/nplog/issues"
+  },
+  "homepage": "https://github.com/ecxx/nplog#readme"
+}
