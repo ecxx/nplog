@@ -1,5 +1,6 @@
 const sqlite3 = require('sqlite3').verbose();
 const Logger = require('./Logger')
+const sys = require('sys');
 
 var makeArray = function (nonarray) {
     return Array.prototype.slice.call(nonarray);
